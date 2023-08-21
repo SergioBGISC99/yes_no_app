@@ -3,9 +3,6 @@ import 'package:yes_no_app/presentation/widgets/chat/her_message_bubble.dart';
 import 'package:yes_no_app/presentation/widgets/chat/my_message_bubble.dart';
 import 'package:yes_no_app/presentation/widgets/shared/message_field_box.dart';
 
-const String imageLink =
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGx9N7RSOZnOpi1yVpLEe6DhP2rzKoi_fSYw&usqp=CAU';
-
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});
 
@@ -15,7 +12,9 @@ class ChatScreen extends StatelessWidget {
       appBar: AppBar(
         leading: const Padding(
           padding: EdgeInsets.all(4.0),
-          child: CircleAvatar(backgroundImage: NetworkImage(imageLink)),
+          child: CircleAvatar(
+              backgroundImage: NetworkImage(
+                  'https://i.pinimg.com/474x/5c/38/9c/5c389ccd4850a29ea8f868d68cc7540d.jpg')),
         ),
         title: const Text("Margot Robbie ✅"),
         centerTitle: false,

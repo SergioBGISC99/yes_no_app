@@ -23,7 +23,7 @@ class MessageFieldBox extends StatelessWidget {
             Icons.send_outlined,
           ),
           onPressed: () {
-            final textValue = textController.value.text;
+            //final textValue = textController.value.text;
             textController.clear();
           },
         ));

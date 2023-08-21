@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-const String gif =
-    'https://yesno.wtf/assets/yes/14-b57c6dc03aa15a4b18f53eb50d6197ee.gif';
-
 class HerMessageBubble extends StatelessWidget {
   const HerMessageBubble({super.key});
 
@@ -45,7 +42,7 @@ class _ImageBubble extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(20),
       child: Image.network(
-        gif,
+        'https://yesno.wtf/assets/yes/14-b57c6dc03aa15a4b18f53eb50d6197ee.gif',
         width: size.width * 0.7,
         height: 150,
         fit: BoxFit.cover,
