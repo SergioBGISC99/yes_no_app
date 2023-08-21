@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yes_no_app/presentation/widgets/chat/her_message_bubble.dart';
 import 'package:yes_no_app/presentation/widgets/chat/my_message_bubble.dart';
+import 'package:yes_no_app/presentation/widgets/shared/message_field_box.dart';
 
 const String imageLink =
     'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGx9N7RSOZnOpi1yVpLEe6DhP2rzKoi_fSYw&usqp=CAU';
@@ -41,7 +42,7 @@ class _ChatView extends StatelessWidget {
                         : const MyMessageBubble();
                   }),
             ),
-            const Text("Mundo")
+            const MessageFieldBox()
           ],
         ),
       ),
