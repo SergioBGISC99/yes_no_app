@@ -37,11 +37,11 @@ class _ChatView extends StatelessWidget {
                   itemCount: 100,
                   itemBuilder: (context, index) {
                     return (index % 2 == 0)
-                        ? HerMessageBubble()
-                        : MyMessageBubble();
+                        ? const HerMessageBubble()
+                        : const MyMessageBubble();
                   }),
             ),
-            Text("Mundo")
+            const Text("Mundo")
           ],
         ),
       ),
